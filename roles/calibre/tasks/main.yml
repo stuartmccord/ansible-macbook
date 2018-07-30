@@ -1,0 +1,5 @@
+---
+- name: Install Calibre
+  homebrew_cask:
+    name: calibre
+    state: present

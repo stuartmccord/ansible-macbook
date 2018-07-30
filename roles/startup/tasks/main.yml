@@ -1,0 +1,10 @@
+---
+- name: install loginitems
+  homebrew:
+    name: loginitems
+    state: present
+
+- name: add login item
+  command: "loginitems -a '{{ item }}'"
+  changed_when: false
+  with_items: "{{ login_items }}"

@@ -1,0 +1,5 @@
+---
+- name: Install default browser
+  homebrew:
+    name: defaultbrowser
+    state: present

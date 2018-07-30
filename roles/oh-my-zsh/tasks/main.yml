@@ -1,0 +1,7 @@
+---
+- name: Check out the oh-my-zsh GitHub repository
+  git:
+    repo=https://github.com/robbyrussell/oh-my-zsh
+    dest=~/.oh-my-zsh
+  when: installation|success
+  register: cloning

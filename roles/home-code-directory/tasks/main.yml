@@ -1,0 +1,7 @@
+---
+- name: Ensure the ~/Code directory exists
+  file: >
+    path={{ home_directory }}/Code
+    state=directory
+    owner={{ user }}
+  become: yes

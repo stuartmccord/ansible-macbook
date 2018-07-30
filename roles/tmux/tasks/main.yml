@@ -1,0 +1,14 @@
+---
+- name: Install tmux
+  homebrew: name=tmux state=latest
+
+- name: Copy tmux config
+  copy:
+    src: "tmux.conf"
+    dest: "{{ home_directory }}/.tmux.conf"
+
+- name: Install tmux-switch-session
+  copy:
+    src: "tmux-switch-session"
+    dest: "/usr/local/bin/tmux-switch-session"
+    mode: 0755

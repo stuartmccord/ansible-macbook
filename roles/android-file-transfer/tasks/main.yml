@@ -1,0 +1,5 @@
+---
+- name: Install Android File Transfer
+  homebrew_cask:
+    name: android-file-transfer
+    state: present

@@ -1,0 +1,5 @@
+---
+- name: Install Max
+  homebrew_cask:
+    name: max
+    state: present

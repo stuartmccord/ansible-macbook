@@ -1,0 +1,5 @@
+---
+- name: Install PHPStorm
+  homebrew_cask:
+    name: phpstorm
+    state: present

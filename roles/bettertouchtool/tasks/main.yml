@@ -1,0 +1,5 @@
+---
+- name: Install Better Touch Tool
+  homebrew_cask:
+    name: bettertouchtool
+    state: present

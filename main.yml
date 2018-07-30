@@ -1,0 +1,36 @@
+---
+- hosts: localhost
+  vars_files:
+    - secret
+  connection: local
+  roles:
+    - home-code-directory
+    - ssh-keys
+
+    - homebrew
+    - gnu-command-line-tools
+    - git
+    - jq
+    - tmux
+    - vim
+    - the-silver-searcher
+    - zsh
+    - oh-my-zsh
+    - 1password
+    - alfred
+    - android-file-transfer
+    - bettertouchtool
+    - bittorrent
+    - calibre
+    - dash
+    - font-fira-code
+    - iterm2
+    - google-chrome
+    - max
+    - phpstorm
+    - sequel-pro
+    - skype
+    - spectacle
+    - tunnelblick
+    - vlc
+    - startup

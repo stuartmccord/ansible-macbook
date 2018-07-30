@@ -1,0 +1,5 @@
+---
+- name: Install Skype
+  homebrew_cask:
+    name: skype
+    state: present
