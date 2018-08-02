@@ -1,0 +1,4 @@
+---
+- name: Install ctags
+  homebrew:
+    name: ctags

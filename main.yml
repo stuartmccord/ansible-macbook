@@ -7,30 +7,35 @@
     - home-code-directory
     - ssh-keys
 
-    - homebrew
-    - gnu-command-line-tools
-    - git
-    - jq
-    - tmux
-    - vim
-    - the-silver-searcher
-    - zsh
-    - oh-my-zsh
     - 1password
     - alfred
     - android-file-transfer
     - bettertouchtool
     - bittorrent
     - calibre
+    - ctags
     - dash
+    - defaultbrowser
+    - diff-so-fancy
     - font-fira-code
-    - iterm2
+    - git
+    - gnu-command-line-tools
     - google-chrome
+    - homebrew
+    - iterm2
+    - jq
     - max
+    - oh-my-zsh
     - phpstorm
+    - ripgrep
     - sequel-pro
     - skype
     - spectacle
+    - the-silver-searcher
+    - the-unarchiver
+    - tmux
     - tunnelblick
+    - vim
     - vlc
-    - startup
+    - wget
+    - zsh
